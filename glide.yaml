@@ -1,0 +1,21 @@
+package: github.com/akatrevorjay/git-pull-request-mirror
+import:
+- package: github.com/akatrevorjay/git-appraise
+  subpackages:
+  - repository
+  - review
+  - review/ci
+  - review/comment
+  - review/request
+- package: github.com/akatrevorjay/go-github
+  subpackages:
+  - github
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+- package: google.golang.org/appengine
+  subpackages:
+  - datastore
+  - log
+  - user

@@ -1,0 +1,49 @@
+hash: 17cbd4fb1806aa0722804e52ff9f147e1fa493702c9a1a48413d29593145e737
+updated: 2017-05-24T01:21:00.899276885-07:00
+imports:
+- name: github.com/akatrevorjay/git-appraise
+  version: bcf5cfe2d8d4739ba172a20a6e81328011235638
+  subpackages:
+  - repository
+  - review
+  - review/analyses
+  - review/ci
+  - review/comment
+  - review/request
+- name: github.com/akatrevorjay/go-github
+  version: aad26cdc4d7b77a9935426747635be727a675d3b
+  subpackages:
+  - github
+- name: github.com/golang/protobuf
+  version: 7a211bcf3bce0e3f1d74f9894916e6f116ae83b4
+  subpackages:
+  - proto
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: golang.org/x/net
+  version: b6d7b1396ec874c3b00f6c84cd4301a17c56c8ed
+  subpackages:
+  - context
+- name: golang.org/x/oauth2
+  version: f047394b6d14284165300fd82dad67edb3a4d7f6
+  subpackages:
+  - internal
+- name: google.golang.org/appengine
+  version: a2f4131514e563cedfdb6e7d267df9ad48591e93
+  subpackages:
+  - datastore
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - internal/user
+  - log
+  - urlfetch
+  - user
+testImports: []
