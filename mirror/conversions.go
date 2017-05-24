@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/git-appraise/repository"
-	"github.com/google/git-appraise/review"
-	"github.com/google/git-appraise/review/ci"
-	"github.com/google/git-appraise/review/comment"
-	"github.com/google/git-appraise/review/request"
-	github "github.com/google/go-github/github"
+	"github.com/akatrevorjay/git-appraise/repository"
+	"github.com/akatrevorjay/git-appraise/review"
+	"github.com/akatrevorjay/git-appraise/review/ci"
+	"github.com/akatrevorjay/git-appraise/review/comment"
+	"github.com/akatrevorjay/git-appraise/review/request"
+	github "github.com/akatrevorjay/go-github/github"
 )
 
 var (

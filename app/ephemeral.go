@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"os/exec"
 
-	"github.com/google/git-appraise/repository"
+	"github.com/akatrevorjay/git-appraise/repository"
 	"golang.org/x/net/context"
 	"google.golang.org/appengine"
 )

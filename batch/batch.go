@@ -21,7 +21,7 @@ limitations under the License.
 // before running the tool.
 //
 // Example Usage:
-//    git clone https://github.com/google/git-appraise git-appraise/
+//    git clone https://github.com/akatrevorjay/git-appraise git-appraise/
 //    cd git-appraise
 //    git fetch origin '+refs/pull/*:refs/pull/*'
 //    ~/bin/github-mirror --target google/git-appraise --local ./ -auth-token <YOUR_AUTH_TOKEN>
@@ -40,11 +40,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/google/git-appraise/repository"
-	"github.com/google/go-github/github"
+	"github.com/akatrevorjay/git-appraise/repository"
+	"github.com/akatrevorjay/go-github/github"
 
-	"github.com/google/git-pull-request-mirror/auth"
-	"github.com/google/git-pull-request-mirror/mirror"
+	"github.com/akatrevorjay/git-pull-request-mirror/auth"
+	"github.com/akatrevorjay/git-pull-request-mirror/mirror"
 )
 
 var remoteRepository = flag.String("target", "", "Github repository to read data from")

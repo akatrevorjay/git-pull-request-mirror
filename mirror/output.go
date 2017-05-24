@@ -19,11 +19,11 @@ package mirror
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/google/git-appraise/repository"
-	"github.com/google/git-appraise/review"
-	"github.com/google/git-appraise/review/ci"
-	"github.com/google/git-appraise/review/comment"
-	"github.com/google/git-appraise/review/request"
+	"github.com/akatrevorjay/git-appraise/repository"
+	"github.com/akatrevorjay/git-appraise/review"
+	"github.com/akatrevorjay/git-appraise/review/ci"
+	"github.com/akatrevorjay/git-appraise/review/comment"
+	"github.com/akatrevorjay/git-appraise/review/request"
 )
 
 // WriteNewReports takes a list of CI reports read from GitHub, and writes to the repo any that are new.

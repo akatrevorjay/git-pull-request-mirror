@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/git-appraise/review/ci"
-	github "github.com/google/go-github/github"
+	"github.com/akatrevorjay/git-appraise/review/ci"
+	github "github.com/akatrevorjay/go-github/github"
 )
 
 var (

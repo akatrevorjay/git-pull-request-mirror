@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/go-github/github"
+	"github.com/akatrevorjay/go-github/github"
 	"golang.org/x/oauth2"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"
 
-	"github.com/google/git-pull-request-mirror/mirror"
+	"github.com/akatrevorjay/git-pull-request-mirror/mirror"
 )
 
 const (

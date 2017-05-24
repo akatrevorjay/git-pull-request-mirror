@@ -19,8 +19,8 @@ package mirror
 import (
 	"testing"
 
-	"github.com/google/git-appraise/review/comment"
-	"github.com/google/git-appraise/review/request"
+	"github.com/akatrevorjay/git-appraise/review/comment"
+	"github.com/akatrevorjay/git-appraise/review/request"
 )
 
 func TestCommentsOverlap(t *testing.T) {
